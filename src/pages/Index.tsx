@@ -19,7 +19,7 @@ const Index = () => {
               <div className="text-center mb-8">
                 <div className="w-32 h-32 mx-auto mb-6 rounded-full overflow-hidden shadow-lg ring-4 ring-gray-100">
                   <img 
-                    src="https://v3.fal.media/files/rabbit/S5TpS-HX8PQYCO5h-yHFW_output.png" 
+                    src="https://cdn.poehali.dev/files/1f7ba0fa-4249-4ce2-82f6-b3b7f3ad23eb.jpeg" 
                     alt="Алина"
                     className="w-full h-full object-cover"
                   />
