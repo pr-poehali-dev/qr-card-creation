@@ -66,24 +66,8 @@ const Index = () => {
                 </div>
               </div>
 
-              {/* QR код */}
+              {/* Контакт */}
               <div className="text-center">
-                <div className="bg-white p-6 rounded-2xl inline-block mb-4">
-                  <div className="w-32 h-32 bg-gray-900 rounded-lg flex items-center justify-center">
-                    <div className="text-white text-xs leading-none">
-                      ██ ██ ██<br />
-                      ██&nbsp;&nbsp;&nbsp;&nbsp;██<br />
-                      ██ ██ ██<br />
-                      &nbsp;&nbsp;██&nbsp;&nbsp;&nbsp;&nbsp;<br />
-                      ██ ██ ██<br />
-                      ██&nbsp;&nbsp;&nbsp;&nbsp;██<br />
-                      ██ ██ ██
-                    </div>
-                  </div>
-                </div>
-                <p className="text-gray-300 text-sm mb-4 font-open-sans">
-                  Сканируй QR-код или нажми кнопку
-                </p>
                 <Button 
                   onClick={handleTelegramClick}
                   className="w-full bg-white text-gray-900 hover:bg-gray-100 font-semibold py-3 rounded-xl transition-all duration-300 hover:scale-105"
