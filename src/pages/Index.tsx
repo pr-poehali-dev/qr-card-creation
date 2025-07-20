@@ -99,8 +99,61 @@ const Index = () => {
           </div>
         </Card>
 
+        {/* Фотогалерея */}
+        <div className="mt-12">
+          <h2 className="text-2xl font-bold text-center text-gray-900 mb-8 font-montserrat">
+            Мои фотографии 📸
+          </h2>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+            {/* Фото 1 - на природе */}
+            <div className="group relative overflow-hidden rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-500 hover:scale-105">
+              <img 
+                src="https://cdn.poehali.dev/files/dfb651d3-a3e3-4a34-b3ce-e1f759626bd3.jpeg" 
+                alt="На природе"
+                className="w-full h-80 object-cover group-hover:scale-110 transition-transform duration-700"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                <div className="absolute bottom-4 left-4 text-white">
+                  <p className="font-semibold font-open-sans">Прогулка в парке</p>
+                  <p className="text-sm opacity-90 font-open-sans">Люблю природу и свежий воздух</p>
+                </div>
+              </div>
+            </div>
+
+            {/* Фото 2 - в ресторане */}
+            <div className="group relative overflow-hidden rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-500 hover:scale-105">
+              <img 
+                src="https://cdn.poehali.dev/files/8e203fc0-e37c-4f03-8134-d0f5cef705bd.jpeg" 
+                alt="В ресторане"
+                className="w-full h-80 object-cover group-hover:scale-110 transition-transform duration-700"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                <div className="absolute bottom-4 left-4 text-white">
+                  <p className="font-semibold font-open-sans">Вечер в ресторане</p>
+                  <p className="text-sm opacity-90 font-open-sans">Ценю хорошую атмосферу</p>
+                </div>
+              </div>
+            </div>
+
+            {/* Фото 3 - вечернее */}
+            <div className="group relative overflow-hidden rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-500 hover:scale-105">
+              <img 
+                src="https://cdn.poehali.dev/files/b61af0fa-1d9c-4113-8730-21b798c5dc8c.jpeg" 
+                alt="Вечерний образ"
+                className="w-full h-80 object-cover group-hover:scale-110 transition-transform duration-700"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                <div className="absolute bottom-4 left-4 text-white">
+                  <p className="font-semibold font-open-sans">Вечерний образ</p>
+                  <p className="text-sm opacity-90 font-open-sans">Готова к особым событиям</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
         {/* Дополнительная информация */}
-        <div className="mt-8 text-center">
+        <div className="mt-12 text-center">
           <p className="text-gray-600 font-open-sans">
             Буду рада знакомству! 💫
           </p>
